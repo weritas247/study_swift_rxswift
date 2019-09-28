@@ -3,10 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39210447DC4C6DA3CF234E1B /* Pods_study_swift_rxswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BEE96C8040D23D6D0514AA /* Pods_study_swift_rxswift.framework */; };
+		DB238BF4233F37A000E211CF /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BDF233F37A000E211CF /* CartViewController.swift */; };
+		DB238BF5233F37A000E211CF /* BillingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BE0233F37A000E211CF /* BillingInfoViewController.swift */; };
+		DB238BF6233F37A000E211CF /* ChocolatesOfTheWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BE1233F37A000E211CF /* ChocolatesOfTheWorldViewController.swift */; };
+		DB238BF7233F37A000E211CF /* ChocolateNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BE2233F37A000E211CF /* ChocolateNavigationController.swift */; };
+		DB238BF8233F37A000E211CF /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BE4233F37A000E211CF /* CurrencyFormatter.swift */; };
+		DB238BF9233F37A000E211CF /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BE5233F37A000E211CF /* ImageName.swift */; };
+		DB238BFA233F37A000E211CF /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BE6233F37A000E211CF /* CardType.swift */; };
+		DB238BFB233F37A000E211CF /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BE7233F37A000E211CF /* ShoppingCart.swift */; };
+		DB238BFC233F37A000E211CF /* Chocolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BE8233F37A000E211CF /* Chocolate.swift */; };
+		DB238BFD233F37A000E211CF /* String+CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BEA233F37A000E211CF /* String+CreditCard.swift */; };
+		DB238BFE233F37A000E211CF /* String+ExpirationDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BEB233F37A000E211CF /* String+ExpirationDate.swift */; };
+		DB238BFF233F37A000E211CF /* NSDate+CurrentComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BEC233F37A000E211CF /* NSDate+CurrentComponents.swift */; };
+		DB238C00233F37A000E211CF /* ChocolateIsComingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BED233F37A000E211CF /* ChocolateIsComingViewController.swift */; };
+		DB238C01233F37A000E211CF /* ValidatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BEF233F37A000E211CF /* ValidatingTextField.swift */; };
+		DB238C02233F37A000E211CF /* ChocolateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BF0233F37A000E211CF /* ChocolateCell.swift */; };
+		DB238C03233F37A000E211CF /* ChocolateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BF1233F37A000E211CF /* ChocolateButton.swift */; };
+		DB238C04233F37A000E211CF /* SegueHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB238BF3233F37A000E211CF /* SegueHandler.swift */; };
+		DB238C07233F381900E211CF /* Chocotastic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB238C05233F381900E211CF /* Chocotastic.storyboard */; };
 		DBBB82FC233F363900902EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBB82FB233F363900902EE1 /* AppDelegate.swift */; };
 		DBBB82FE233F363900902EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBB82FD233F363900902EE1 /* ViewController.swift */; };
 		DBBB8301233F363900902EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBB82FF233F363900902EE1 /* Main.storyboard */; };
@@ -15,6 +34,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F8993EA17F19ACEA89722B9 /* Pods-study_swift_rxswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study_swift_rxswift.release.xcconfig"; path = "Target Support Files/Pods-study_swift_rxswift/Pods-study_swift_rxswift.release.xcconfig"; sourceTree = "<group>"; };
+		47BEE96C8040D23D6D0514AA /* Pods_study_swift_rxswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_study_swift_rxswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A97366ED7C8C28F142E39C1 /* Pods-study_swift_rxswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-study_swift_rxswift.debug.xcconfig"; path = "Target Support Files/Pods-study_swift_rxswift/Pods-study_swift_rxswift.debug.xcconfig"; sourceTree = "<group>"; };
+		DB238BDF233F37A000E211CF /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		DB238BE0233F37A000E211CF /* BillingInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillingInfoViewController.swift; sourceTree = "<group>"; };
+		DB238BE1233F37A000E211CF /* ChocolatesOfTheWorldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChocolatesOfTheWorldViewController.swift; sourceTree = "<group>"; };
+		DB238BE2233F37A000E211CF /* ChocolateNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChocolateNavigationController.swift; sourceTree = "<group>"; };
+		DB238BE4233F37A000E211CF /* CurrencyFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		DB238BE5233F37A000E211CF /* ImageName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
+		DB238BE6233F37A000E211CF /* CardType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
+		DB238BE7233F37A000E211CF /* ShoppingCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
+		DB238BE8233F37A000E211CF /* Chocolate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chocolate.swift; sourceTree = "<group>"; };
+		DB238BEA233F37A000E211CF /* String+CreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CreditCard.swift"; sourceTree = "<group>"; };
+		DB238BEB233F37A000E211CF /* String+ExpirationDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ExpirationDate.swift"; sourceTree = "<group>"; };
+		DB238BEC233F37A000E211CF /* NSDate+CurrentComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+CurrentComponents.swift"; sourceTree = "<group>"; };
+		DB238BED233F37A000E211CF /* ChocolateIsComingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChocolateIsComingViewController.swift; sourceTree = "<group>"; };
+		DB238BEF233F37A000E211CF /* ValidatingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatingTextField.swift; sourceTree = "<group>"; };
+		DB238BF0233F37A000E211CF /* ChocolateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChocolateCell.swift; sourceTree = "<group>"; };
+		DB238BF1233F37A000E211CF /* ChocolateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChocolateButton.swift; sourceTree = "<group>"; };
+		DB238BF3233F37A000E211CF /* SegueHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueHandler.swift; sourceTree = "<group>"; };
+		DB238C06233F381900E211CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Chocotastic.storyboard; sourceTree = "<group>"; };
 		DBBB82F8233F363900902EE1 /* study_swift_rxswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = study_swift_rxswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBB82FB233F363900902EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBBB82FD233F363900902EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +69,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39210447DC4C6DA3CF234E1B /* Pods_study_swift_rxswift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D1A24162B9A9F81FFEEF29F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47BEE96C8040D23D6D0514AA /* Pods_study_swift_rxswift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB238BDD233F37A000E211CF /* raywenderlich */ = {
+			isa = PBXGroup;
+			children = (
+				DB238BDE233F37A000E211CF /* Getting_Started_With RxSwift_and_RxCocoa */,
+			);
+			path = raywenderlich;
+			sourceTree = "<group>";
+		};
+		DB238BDE233F37A000E211CF /* Getting_Started_With RxSwift_and_RxCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				DB238C05233F381900E211CF /* Chocotastic.storyboard */,
+				DB238BDF233F37A000E211CF /* CartViewController.swift */,
+				DB238BE0233F37A000E211CF /* BillingInfoViewController.swift */,
+				DB238BE1233F37A000E211CF /* ChocolatesOfTheWorldViewController.swift */,
+				DB238BE2233F37A000E211CF /* ChocolateNavigationController.swift */,
+				DB238BE3233F37A000E211CF /* Models */,
+				DB238BE9233F37A000E211CF /* Extensions */,
+				DB238BED233F37A000E211CF /* ChocolateIsComingViewController.swift */,
+				DB238BEE233F37A000E211CF /* Views */,
+				DB238BF2233F37A000E211CF /* Protocols */,
+			);
+			path = "Getting_Started_With RxSwift_and_RxCocoa";
+			sourceTree = "<group>";
+		};
+		DB238BE3233F37A000E211CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB238BE4233F37A000E211CF /* CurrencyFormatter.swift */,
+				DB238BE5233F37A000E211CF /* ImageName.swift */,
+				DB238BE6233F37A000E211CF /* CardType.swift */,
+				DB238BE7233F37A000E211CF /* ShoppingCart.swift */,
+				DB238BE8233F37A000E211CF /* Chocolate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB238BE9233F37A000E211CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB238BEA233F37A000E211CF /* String+CreditCard.swift */,
+				DB238BEB233F37A000E211CF /* String+ExpirationDate.swift */,
+				DB238BEC233F37A000E211CF /* NSDate+CurrentComponents.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DB238BEE233F37A000E211CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB238BEF233F37A000E211CF /* ValidatingTextField.swift */,
+				DB238BF0233F37A000E211CF /* ChocolateCell.swift */,
+				DB238BF1233F37A000E211CF /* ChocolateButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB238BF2233F37A000E211CF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DB238BF3233F37A000E211CF /* SegueHandler.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		DBBB82EF233F363800902EE1 = {
 			isa = PBXGroup;
 			children = (
 				DBBB82FA233F363900902EE1 /* study_swift_rxswift */,
 				DBBB82F9233F363900902EE1 /* Products */,
+				F656F247A67FBA9B3AE098B6 /* Pods */,
+				3D1A24162B9A9F81FFEEF29F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +170,7 @@
 		DBBB82FA233F363900902EE1 /* study_swift_rxswift */ = {
 			isa = PBXGroup;
 			children = (
+				DB238BDD233F37A000E211CF /* raywenderlich */,
 				DBBB82FB233F363900902EE1 /* AppDelegate.swift */,
 				DBBB82FD233F363900902EE1 /* ViewController.swift */,
 				DBBB82FF233F363900902EE1 /* Main.storyboard */,
@@ -64,6 +181,15 @@
 			path = study_swift_rxswift;
 			sourceTree = "<group>";
 		};
+		F656F247A67FBA9B3AE098B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A97366ED7C8C28F142E39C1 /* Pods-study_swift_rxswift.debug.xcconfig */,
+				0F8993EA17F19ACEA89722B9 /* Pods-study_swift_rxswift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBBB830A233F363A00902EE1 /* Build configuration list for PBXNativeTarget "study_swift_rxswift" */;
 			buildPhases = (
+				C48C246E20D991BD7D2AF521 /* [CP] Check Pods Manifest.lock */,
 				DBBB82F4233F363900902EE1 /* Sources */,
 				DBBB82F5233F363900902EE1 /* Frameworks */,
 				DBBB82F6233F363900902EE1 /* Resources */,
+				A33F9C5F7540B9F1FCF6FA48 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBBB8306233F363A00902EE1 /* LaunchScreen.storyboard in Resources */,
+				DB238C07233F381900E211CF /* Chocotastic.storyboard in Resources */,
 				DBBB8303233F363A00902EE1 /* Assets.xcassets in Resources */,
 				DBBB8301233F363900902EE1 /* Main.storyboard in Resources */,
 			);
@@ -130,19 +259,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A33F9C5F7540B9F1FCF6FA48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-study_swift_rxswift/Pods-study_swift_rxswift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-study_swift_rxswift/Pods-study_swift_rxswift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-study_swift_rxswift/Pods-study_swift_rxswift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C48C246E20D991BD7D2AF521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-study_swift_rxswift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBBB82F4233F363900902EE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB238C04233F37A000E211CF /* SegueHandler.swift in Sources */,
+				DB238C01233F37A000E211CF /* ValidatingTextField.swift in Sources */,
 				DBBB82FE233F363900902EE1 /* ViewController.swift in Sources */,
+				DB238BFD233F37A000E211CF /* String+CreditCard.swift in Sources */,
+				DB238BF4233F37A000E211CF /* CartViewController.swift in Sources */,
+				DB238C03233F37A000E211CF /* ChocolateButton.swift in Sources */,
+				DB238BF5233F37A000E211CF /* BillingInfoViewController.swift in Sources */,
+				DB238BF6233F37A000E211CF /* ChocolatesOfTheWorldViewController.swift in Sources */,
+				DB238C00233F37A000E211CF /* ChocolateIsComingViewController.swift in Sources */,
+				DB238BF7233F37A000E211CF /* ChocolateNavigationController.swift in Sources */,
+				DB238BFB233F37A000E211CF /* ShoppingCart.swift in Sources */,
+				DB238BF8233F37A000E211CF /* CurrencyFormatter.swift in Sources */,
+				DB238BF9233F37A000E211CF /* ImageName.swift in Sources */,
 				DBBB82FC233F363900902EE1 /* AppDelegate.swift in Sources */,
+				DB238BFF233F37A000E211CF /* NSDate+CurrentComponents.swift in Sources */,
+				DB238C02233F37A000E211CF /* ChocolateCell.swift in Sources */,
+				DB238BFC233F37A000E211CF /* Chocolate.swift in Sources */,
+				DB238BFE233F37A000E211CF /* String+ExpirationDate.swift in Sources */,
+				DB238BFA233F37A000E211CF /* CardType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		DB238C05233F381900E211CF /* Chocotastic.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB238C06233F381900E211CF /* Base */,
+			);
+			name = Chocotastic.storyboard;
+			sourceTree = "<group>";
+		};
 		DBBB82FF233F363900902EE1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +476,7 @@
 		};
 		DBBB830B233F363A00902EE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A97366ED7C8C28F142E39C1 /* Pods-study_swift_rxswift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,13 +488,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "MaverickDevStudio.study-swift-rxswift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		DBBB830C233F363A00902EE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8993EA17F19ACEA89722B9 /* Pods-study_swift_rxswift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +507,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "MaverickDevStudio.study-swift-rxswift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
